@@ -1,0 +1,28 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+serverless.yml
+
+#.env
+.env
+
+#.json
+template-1.json
+template-2.json
+template-3.json
+rawData.json
+
+# utils
+/utils
+.eslintignore
+.eslintrc.yml
+.gitattributes
+
+# js
+getRawData.js
+seeders.js
+garbage.js
+timeTable.js

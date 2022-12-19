@@ -16,7 +16,6 @@ template-3.json
 rawData.json
 
 # utils
-/utils
 .eslintignore
 .eslintrc.yml
 .gitattributes
@@ -26,3 +25,4 @@ getRawData.js
 seeders.js
 garbage.js
 timeTable.js
+utils/timeTransTool.js

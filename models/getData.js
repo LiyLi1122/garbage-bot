@@ -12,7 +12,6 @@ const db = mongoose.connection
 const getData = function (content) {
   return new Promise((resolve, reject) => {
     let rawData
-    content = content.split(' ')
     db.once('open', async () => {
       try {
         console.log('mongoDB is connected!')

@@ -40,6 +40,8 @@ module.exports.webhook = async (event, context) => {
           }
           break
         }
+        // 為 getData.js 資料分流做準備
+        content = content.split(' ')
         result = await getData(content)
         if (result.length === 0) {
           model = {

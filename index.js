@@ -6,7 +6,7 @@ const line = require('@line/bot-sdk')
 const msgModel = require('./utils/msgModel')
 const distanceModel = require('./utils/distanceModel')
 const timeTableModel = require('./utils/timeTableModel')
-const getData = require('./models/getData')
+const getData = require('./utils/getData')
 
 const config = {
   channelId: process.env.CHANNEL_ID,

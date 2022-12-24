@@ -22,11 +22,11 @@ Axios 套件串接 Google Maps API ( Geocoding、Distance Matrix)、政府 Open 
 
 1. 打開 Line 的加入好友服務  
 
-2. 輸入 @ XXXX  
+2. 輸入 @700uupcw
 
 3. 加入好友  
 
-4. 依循操作提示輸入文字  
+4. 依循操作提示輸入文字 ( 測試用：和平里 復興路 )
 
 5. 送出文字得到搜查結果  
 

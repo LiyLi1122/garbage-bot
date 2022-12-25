@@ -1,6 +1,6 @@
 <h1 align="center">台中垃圾車小精靈 Garbage-Bot 🧚‍♀️</h1>
 
-<div align="center"><img src="https://user-images.githubusercontent.com/92621470/208349845-ccce5273-356d-41f9-81c4-60acf5ef48c8.png"></div>
+<div align="center"><img src="https://user-images.githubusercontent.com/92621470/209444056-f03d9b47-4d3f-4f63-862a-974a700be9af.png"></div>
 
 <h2>介紹</h2>  
 Serverless Framework 使用 @line/bot-sdk 套件建立專案，並使用 MongoDB、Mongoose ORM 建立操作資料庫，
@@ -22,11 +22,11 @@ Axios 套件串接 Google Maps API ( Geocoding、Distance Matrix)、政府 Open 
 
 1. 打開 Line 的加入好友服務  
 
-2. 輸入 @ XXXX  
+2. 輸入 @700uupcw
 
 3. 加入好友  
 
-4. 依循操作提示輸入文字  
+4. 依循操作提示輸入文字 ( 測試用：和平里 復興路 )
 
 5. 送出文字得到搜查結果  
 

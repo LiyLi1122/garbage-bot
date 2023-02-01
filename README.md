@@ -18,7 +18,6 @@ Axios 套件串接 Google Maps API ( Geocoding、Distance Matrix)、政府 Open 
 * 「查詢垃圾車目前位置」可以知道車輛離站點還有多少距離、時間      
 
 <h2>操作說明</h2>
-政府 Open Data API 目前正維修中，Bot 暫不開放使用  
 
 1. 打開 Line 的加入好友服務  
 

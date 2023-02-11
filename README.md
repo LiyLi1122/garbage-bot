@@ -2,6 +2,9 @@
 
 <div align="center"><img src="https://user-images.githubusercontent.com/92621470/209444056-f03d9b47-4d3f-4f63-862a-974a700be9af.png"></div>
 
+<h2>公告</h2>
+政府 Open API 資料有問題正尋求改善，有些地址無法查詢垃圾車動態位置、地圖顯示錯誤位置。
+
 <h2>介紹</h2>  
 Serverless Framework 使用 @line/bot-sdk 套件建立專案，並使用 MongoDB、Mongoose ORM 建立操作資料庫，
 Axios 套件串接 Google Maps API ( Geocoding、Distance Matrix)、政府 Open data API，雲端部署在 AWS Lambda，

@@ -17,15 +17,19 @@ const msgModel = async result => {
     for (const r of result) {
     // 設定 address & 編碼
       const address = encodeURI('台中市' + r.area + r.village + r.caption)
+
       // google geocode api
       const geocodeAPI = `https://maps.googleapis.com/maps/api/geocode/json?address=${address}&key=${process.env.MAP_API_KEY}&language=zh-tw`
+
       const { data } = await axios.get(geocodeAPI)
+
       // 位置 Id
       const placeId = data.results[0].place_id
       // 緯度
       const lat = data.results[0].geometry.location.lat
       // 經度
       const lng = data.results[0].geometry.location.lng
+
       // 組裝資料
       model.contents.contents.push(
         {

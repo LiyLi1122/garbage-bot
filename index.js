@@ -1,7 +1,6 @@
 'use strict'
 
 require('dotenv').config()
-
 const line = require('@line/bot-sdk')
 const msgModel = require('./utils/msgModel')
 const distanceModel = require('./utils/distanceModel')
@@ -50,6 +49,7 @@ module.exports.webhook = async (event, context) => {
           }
           break
         }
+        console.log('---- result ----', result)
         // 完整模板
         model = await msgModel(result)
         break
